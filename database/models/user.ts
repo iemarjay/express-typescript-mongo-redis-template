@@ -1,6 +1,6 @@
 import { USER_TYPES_ARRAY, UserTypes } from "../../constants/user";
 import { model, Schema } from "mongoose";
-import { UserData } from "../../utilties/user";
+import { UserData } from "../../utilities/user";
 
 export interface UserInterface {
   readonly id: string;

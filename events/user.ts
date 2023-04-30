@@ -1,4 +1,4 @@
-import { UserData } from "../utilties/user";
+import { UserData } from "../utilities/user";
 
 export type User = {
   email: string;
