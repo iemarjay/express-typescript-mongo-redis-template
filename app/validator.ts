@@ -14,4 +14,12 @@ export default class Validator {
   date() {
     return Joi.date();
   }
+
+  array() {
+    return Joi.array();
+  }
+
+  object() {
+    return Joi.object();
+  }
 }
